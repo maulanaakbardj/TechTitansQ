@@ -1,2 +1,2 @@
-# TechTitansQ_ML
+# TechTitans 
 Application questions TechTitansQ-MachineLearning 
