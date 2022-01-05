@@ -1,2 +1,2 @@
-# TechTitans 
-Application questions TechTitansQ-MachineLearning 
+# TechTitans basic aptitude test
+Application questions 
