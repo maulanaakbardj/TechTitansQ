@@ -1,5 +1,5 @@
-name1='3' #name = input() 1  
-name2='6' #name = input() 2 
+name1='4' #name = input() 1  
+name2='8' #name = input() 2 
 name1=int(name1)
 name2=int(name2)
 def f (n):
