@@ -1,4 +1,4 @@
-def getMin(S):aa
+def getMin(S):
 	balance = insertLeft = 0 
         
 	for s in S:
