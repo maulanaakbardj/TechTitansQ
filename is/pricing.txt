@@ -1,0 +1,11 @@
+Item,Unit,Price,Currency
+Item 1,10,2000,IDR
+Item 2,20,4000,EUR
+Item 3,5,50000,IDR
+Item 4,6,24000,USD
+Item 5,3,56000,IDR
+Item 6,4,3000,EUR 
+Item 7,5,4000,USD 
+Item 8,5,9000,USD 
+Item 9,5,6000,IDR 
+Item 10,5,10000,USD 
