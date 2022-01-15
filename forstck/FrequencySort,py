@@ -1,0 +1,21 @@
+from collections import Counter
+
+def itemsSort(items):
+    # Write your code here
+    if not items or len(items) < 2:
+        return items
+
+    itm_cnt = Counter(items)
+
+    count_to_items_dict = dict()
+    for num, count in itm_cnt.items():
+        count_to_items_dict[count] = count_to_items_dict.get(count, [])
+        count_to_items_dict[count].append(num)
+
+    ans_list = []
+    for cnt in sorted(count_to_items_dict.keys()):
+        nums = sorted(count_to_items_dict[cnt])
+        for num in nums:
+            ans_list.extend([num] * cnt)
+
+    return ans_list
