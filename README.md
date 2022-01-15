@@ -1,2 +1,2 @@
-# TechTitans test Programming
+# TechTitans Test Programming
 Application questions 
