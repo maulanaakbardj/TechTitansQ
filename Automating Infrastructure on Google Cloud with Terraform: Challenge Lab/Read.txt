@@ -306,7 +306,7 @@ Copy and paste the following into the main.tf file:
 
 module "vpc" {
     source  = "terraform-google-modules/network/google"
-    version = "~> 3.2.2"
+    version = "~> 3.4.0"
 
     project_id   = var.project_id
     network_name = "VPC_NAME"
