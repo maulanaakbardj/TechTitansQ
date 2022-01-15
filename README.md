@@ -1,2 +1,2 @@
-# TechTitans basic aptitude test
+# TechTitans test Programming
 Application questions 
