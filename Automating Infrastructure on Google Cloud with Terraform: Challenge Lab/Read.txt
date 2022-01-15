@@ -87,6 +87,10 @@ resource "google_compute_instance" "tf-instance-1" {
   network_interface {
  network = "default"
   }
+  metadata_startup_script = <<-EOT
+        #!/bin/bash
+    EOT
+allow_stopping_for_update = true
 }
 
 resource "google_compute_instance" "tf-instance-2" {
@@ -104,8 +108,11 @@ boot_disk {
   network_interface {
  network = "default"
   }
+  metadata_startup_script = <<-EOT
+        #!/bin/bash
+    EOT
+allow_stopping_for_update = true
 }
-
 
 To import the first instance, use the following command, using the Instance ID for tf-instance-1 you copied down earlier.
 ------------------------------------------------------------------------------
