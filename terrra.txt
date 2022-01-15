@@ -1,2 +1,4 @@
 terraform import module.instances.google_compute_instance.tf-instance-1 2330573885085267318
 terraform import module.instances.google_compute_instance.tf-instance-2 4083747138374153590
+terraform import module.instances.google_compute_instance.tf-instance-1 8961658697508925668
+terraform import module.instances.google_compute_instance.tf-instance-2 1161019063062704356
