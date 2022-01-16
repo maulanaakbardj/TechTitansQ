@@ -36,5 +36,5 @@ def prCharWithFreq(str) :
 # Driver Code
 if __name__ == "__main__" :
     
-    str = "geeksforgeeks";
+    str = "geks";
     prCharWithFreq(str);
