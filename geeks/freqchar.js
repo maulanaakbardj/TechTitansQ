@@ -45,9 +45,7 @@
     }
     
     // Driver program to test above
-    let str = "geeksforgeeks";
+    let str = "geks";
     printCharWithFreq(str);
-    
-    // This code is contributed by rag2127.
     
 </script>
