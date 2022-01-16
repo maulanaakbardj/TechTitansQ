@@ -44,8 +44,7 @@ function printCharWithFreq($str)
 }
 
 // Driver Code
-$str = "geeksforgeeks";
+$str = "geks";
 printCharWithFreq($str);
 
-// This code is contributed by ita_c
 ?>
