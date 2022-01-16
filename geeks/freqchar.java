@@ -42,7 +42,7 @@ public class Char_frequency {
     // Driver program to test above
     public static void main(String args[])
     {
-        String str = "geeksforgeeks";
+        String str = "geks";
         printCharWithFreq(str);
     }
 }
